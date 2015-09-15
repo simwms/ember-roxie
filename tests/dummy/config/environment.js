@@ -6,6 +6,11 @@ module.exports = function(environment) {
     environment: environment,
     baseURL: '/',
     locationType: 'auto',
+    roxieHost: "http://localhost:4000",
+    roxieNamespace: "master",
+    roxieMasterKey: "furishikiru-ame-ni-mi-o-kakusu-you-ni-shite-odoru",
+    s3Bucket: "simwms",
+    s3StorageClass: "REDUCED_REDUNDANCY",
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build

@@ -1,0 +1,16 @@
+{{ember-webcam-input name="pics" picUrls=urls}}
+<div>
+  {{#each urls as |url|}}
+    <img src={{url}}>
+  {{/each}}
+</div>
+<div>
+  <button {{action "submit"}}>
+    actually submit to amazon
+  </button>
+</div>
+<div>
+  {{#each blobUrls as |url|}}
+    <img src={{url}}>
+  {{/each}}
+</div>
